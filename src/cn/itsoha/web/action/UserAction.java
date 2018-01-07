@@ -15,7 +15,7 @@ public class UserAction extends ActionSupport implements ModelDriven<User> {
         if (user != null) {
             ActionContext.getContext().getSession().put("user", user);
         } else {
-            return ERROR;
+            return "loginError";
         }
 
         return "toHome";

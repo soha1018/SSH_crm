@@ -6,6 +6,8 @@ import java.io.Serializable;
 import java.util.List;
 
 public interface BaseDao<T> {
+    void saveOrUpdate(T t);
+
     void save(T t);
 
     void deleteById(Serializable id);

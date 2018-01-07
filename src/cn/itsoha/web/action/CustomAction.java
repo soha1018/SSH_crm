@@ -10,21 +10,47 @@ import org.apache.commons.lang3.StringUtils;
 import org.hibernate.criterion.DetachedCriteria;
 import org.hibernate.criterion.Restrictions;
 
+import java.io.File;
+
 public class CustomAction extends ActionSupport implements ModelDriven<Customer> {
     private Customer customer = new Customer();
     private CustomerService customerService;
     private Integer currentPage;
     private Integer pageSize;
+    private File photo;
+    private String photoFileName;
 
-    public String list() throws Exception{
+    public String list() throws Exception {
         //创建离线查询对象
         DetachedCriteria dc = DetachedCriteria.forClass(Customer.class);
         if (StringUtils.isNotBlank(customer.getCust_name())) {
-            dc.add(Restrictions.like("cust_name","%"+customer.getCust_name()+"%"));
+            dc.add(Restrictions.like("cust_name", "%" + customer.getCust_name() + "%"));
         }
         PageBean bean = customerService.getPageBean(dc, currentPage, pageSize);
-        ActionContext.getContext().put("pagebean",bean);
+        ActionContext.getContext().put("pagebean", bean);
         return "list";
+    }
+
+    /**
+     * 添加客户
+     */
+    public String save() throws Exception {
+        //图片保存
+        if (photo != null) {
+            photo.renameTo(new File("E:/upload/" + photoFileName));
+        }
+        customerService.save(customer);
+        return "toList";
+    }
+
+
+    /**
+     * 修改客户
+     */
+    public String toEdit() throws Exception {
+        Customer serviceById = customerService.getById(customer.getCust_id());
+        ActionContext.getContext().put("customer",serviceById);
+        return "edit";
     }
     @Override
     public Customer getModel() {
@@ -62,4 +88,21 @@ public class CustomAction extends ActionSupport implements ModelDriven<Customer>
     public void setPageSize(Integer pageSize) {
         this.pageSize = pageSize;
     }
+
+    public File getPhoto() {
+        return photo;
+    }
+
+    public void setPhoto(File photo) {
+        this.photo = photo;
+    }
+
+    public String getPhotoFileName() {
+        return photoFileName;
+    }
+
+    public void setPhotoFileName(String photoFileName) {
+        this.photoFileName = photoFileName;
+    }
+
 }

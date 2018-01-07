@@ -7,176 +7,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="927bd330-f488-46b1-a45a-d750e686d08c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/lib/javax.annotation.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/lib/javax.ejb.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/lib/javax.jms.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/lib/javax.resource.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/lib/javax.servlet.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/lib/javax.servlet.jsp.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/classes/cn/itsoha/Test/HibernateTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/classes/cn/itsoha/dao/BaseDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/classes/cn/itsoha/dao/BaseDictDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/classes/cn/itsoha/dao/CustomerDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/classes/cn/itsoha/dao/UserDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/classes/cn/itsoha/dao/impl/BaseDaoImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/classes/cn/itsoha/dao/impl/BaseDictDaoImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/classes/cn/itsoha/dao/impl/CustomerDaoImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/classes/cn/itsoha/dao/impl/UserDaoImpl$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/classes/cn/itsoha/dao/impl/UserDaoImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/classes/cn/itsoha/domain/BaseDict.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/classes/cn/itsoha/domain/Customer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/classes/cn/itsoha/domain/LinkMan.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/classes/cn/itsoha/domain/User.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/classes/cn/itsoha/service/BasedictService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/classes/cn/itsoha/service/CustomerService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/classes/cn/itsoha/service/UserService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/classes/cn/itsoha/service/impl/BaseditcServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/classes/cn/itsoha/service/impl/CustomerServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/classes/cn/itsoha/service/impl/UserServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/classes/cn/itsoha/utils/PageBean.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/classes/cn/itsoha/web/action/BaseDictAction.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/classes/cn/itsoha/web/action/CustomAction.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/classes/cn/itsoha/web/action/UserAction.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/lib/antlr-2.7.7.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/lib/asm-3.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/lib/asm-commons-3.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/lib/asm-tree-3.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/lib/com.springsource.com.mchange.v2.c3p0-0.9.1.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/lib/com.springsource.org.aopalliance-1.0.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/lib/com.springsource.org.apache.commons.logging-1.1.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/lib/com.springsource.org.apache.log4j-1.2.15.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/lib/com.springsource.org.aspectj.weaver-1.6.8.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/lib/commons-fileupload-1.3.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/lib/commons-io-2.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/lib/commons-lang3-3.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/lib/dom4j-1.6.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/lib/freemarker-2.3.22.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/lib/geronimo-jta_1.1_spec-1.1.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/lib/gson-2.2.4.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/lib/hibernate-commons-annotations-5.0.1.Final.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/lib/hibernate-core-5.0.7.Final.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/lib/jandex-2.0.0.Final.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/lib/javassist-3.18.1-GA.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/lib/jboss-logging-3.3.0.Final.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/lib/jstl-1.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/lib/log4j-api-2.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/lib/log4j-core-2.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/lib/mysql-connector-java-5.1.7-bin.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/lib/ognl-3.0.6.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/lib/spring-aop-4.2.4.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/lib/spring-aspects-4.2.4.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/lib/spring-beans-4.2.4.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/lib/spring-context-4.2.4.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/lib/spring-core-4.2.4.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/lib/spring-expression-4.2.4.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/lib/spring-jdbc-4.2.4.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/lib/spring-orm-4.2.4.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/lib/spring-test-4.2.4.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/lib/spring-tx-4.2.4.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/lib/spring-web-4.2.4.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/lib/standard.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/lib/struts2-core-2.3.24.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/lib/struts2-spring-plugin-2.3.24.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/lib/xwork-core-2.3.24.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/images/info.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/images/login_1.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/images/login_2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/images/login_3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/images/login_button.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/images/new_001.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/images/new_002.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/images/new_003.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/images/new_005.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/images/new_006.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/images/new_007.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/images/new_008.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/images/new_009.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/images/new_010.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/images/new_011.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/images/new_012.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/images/new_019.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/images/new_020.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/images/new_021.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/images/new_022.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/images/new_023.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/images/new_024.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/images/new_025.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/images/new_026.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/images/new_027.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/images/start.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/images/welcome.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/images/yes.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/.idea/artifacts/SSH_crm_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/.idea/libraries/Java_EE_6_Java_EE_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/SSH_crm.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/src/applicationContext.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/Test/HibernateTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/dao/BaseDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/dao/BaseDictDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/dao/CustomerDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/dao/UserDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/dao/impl/BaseDaoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/dao/impl/BaseDictDaoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/dao/impl/CustomerDaoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/dao/impl/UserDaoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/domain/BaseDict.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/domain/BaseDict.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/domain/Customer.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/domain/Customer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/domain/LinkMan.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/domain/LinkMan.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/domain/User.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/domain/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/service/BasedictService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/service/CustomerService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/service/UserService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/service/impl/BaseditcServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/service/impl/CustomerServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/service/impl/UserServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/utils/PageBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/web/action/BaseDictAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/web/action/CustomAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/web/action/UserAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/src/db.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/src/logging.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/src/struts.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/classes/applicationContext.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/classes/cn/itsoha/domain/BaseDict.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/classes/cn/itsoha/domain/Customer.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/classes/cn/itsoha/domain/LinkMan.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/classes/cn/itsoha/domain/User.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/classes/db.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/classes/logging.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/classes/struts.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/css/Manage.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/css/Style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/js/Common.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/js/FrameDiv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/js/jquery-1.4.4.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/jsp/customer/add.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/jsp/customer/edit.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/jsp/customer/list.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/jsp/error.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/jsp/linkman/add.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/jsp/linkman/edit.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/jsp/linkman/list.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/jsp/success.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/login.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/login.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/menu.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/success.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/top.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SSH_crm/web/welcome.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/my.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/cn/itsoha/dao/BaseDao.class" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/cn/itsoha/dao/BaseDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/cn/itsoha/dao/impl/BaseDaoImpl.class" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/cn/itsoha/dao/impl/BaseDaoImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/cn/itsoha/service/CustomerService.class" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/cn/itsoha/service/CustomerService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/cn/itsoha/service/impl/CustomerServiceImpl.class" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/cn/itsoha/service/impl/CustomerServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/cn/itsoha/web/action/CustomAction.class" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/cn/itsoha/web/action/CustomAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/cn/itsoha/web/action/UserAction.class" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/cn/itsoha/web/action/UserAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/itsoha/dao/BaseDao.java" afterPath="$PROJECT_DIR$/src/cn/itsoha/dao/BaseDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/itsoha/dao/impl/BaseDaoImpl.java" afterPath="$PROJECT_DIR$/src/cn/itsoha/dao/impl/BaseDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/itsoha/service/CustomerService.java" afterPath="$PROJECT_DIR$/src/cn/itsoha/service/CustomerService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/itsoha/service/impl/CustomerServiceImpl.java" afterPath="$PROJECT_DIR$/src/cn/itsoha/service/impl/CustomerServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/itsoha/web/action/CustomAction.java" afterPath="$PROJECT_DIR$/src/cn/itsoha/web/action/CustomAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/itsoha/web/action/UserAction.java" afterPath="$PROJECT_DIR$/src/cn/itsoha/web/action/UserAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/struts.xml" afterPath="$PROJECT_DIR$/src/struts.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/struts.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/struts.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/jsp/customer/add.jsp" afterPath="$PROJECT_DIR$/web/jsp/customer/add.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/jsp/customer/list.jsp" afterPath="$PROJECT_DIR$/web/jsp/customer/list.jsp" />
     </list>
-    <ignored path="$PROJECT_DIR$/../SSH_crm/out/" />
+    <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -196,7 +47,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -208,8 +59,14 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>客户</find>
+      <find>linkmanServlet</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../SSH_crm" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -219,49 +76,51 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/lib/spring-context-4.2.4.RELEASE.jar!/org/springframework/context/config/spring-context-4.2.xsd" />
-        <option value="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/lib/spring-web-4.2.4.RELEASE.jar!/org/springframework/web/context/ContextLoaderListener.class" />
-        <option value="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/lib/struts2-core-2.3.24.jar!/struts-2.3.dtd" />
-        <option value="$PROJECT_DIR$/../SSH_crm/web/success.jsp" />
-        <option value="$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/domain/User.java" />
-        <option value="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/lib/struts2-core-2.3.24.jar!/struts-default.xml" />
-        <option value="$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/domain/User.hbm.xml" />
-        <option value="$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/domain/LinkMan.hbm.xml" />
-        <option value="$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/web/action/struts.xml" />
-        <option value="$PROJECT_DIR$/../SSH_crm/src/hibernate.cfg.xml" />
-        <option value="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/service/UserService.java" />
-        <option value="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/classes/logging.properties" />
-        <option value="$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/Test/HibernateTest.java" />
-        <option value="$PROJECT_DIR$/../SSH_crm/src/db.properties" />
-        <option value="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/lib/mysql-connector-java-5.1.7-bin.jar!/com/mysql/jdbc/Driver.class" />
-        <option value="$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/utils/PageBean.java" />
-        <option value="$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/service/CustomerService.java" />
-        <option value="$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/dao/impl/CoustomerDaoImpl.java" />
-        <option value="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/lib/struts2-core-2.3.24.jar!/struts-2.0.dtd" />
-        <option value="$PROJECT_DIR$/../SSH_crm/web/jsp/customer/list.jsp" />
-        <option value="$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/dao/BaseDao.java" />
-        <option value="$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/web/action/UserAction.java" />
-        <option value="$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/dao/impl/UserDaoImpl.java" />
-        <option value="$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/dao/CustomerDao.java" />
-        <option value="$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/dao/impl/CustomerDaoImpl.java" />
-        <option value="$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/service/impl/CustomerServiceImpl.java" />
-        <option value="$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/dao/impl/BaseDaoImpl.java" />
-        <option value="$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/domain/BaseDict.java" />
-        <option value="$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/domain/Customer.java" />
-        <option value="$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/web/action/CustomAction.java" />
-        <option value="$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/dao/BaseDict.java" />
-        <option value="$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/service/BasedictService.java" />
-        <option value="$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/dao/BaseDictDao.java" />
-        <option value="$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/dao/impl/BaseDictDaoImpl.java" />
-        <option value="$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/service/impl/BaseditcServiceImpl.java" />
-        <option value="$PROJECT_DIR$/../SSH_crm/src/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/../SSH_crm/src/struts.xml" />
-        <option value="$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/domain/BaseDict.hbm.xml" />
-        <option value="$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/domain/Customer.hbm.xml" />
-        <option value="$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/web/action/BaseDictAction.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/lib/spring-context-4.2.4.RELEASE.jar!/org/springframework/context/config/spring-context-4.2.xsd" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/lib/spring-web-4.2.4.RELEASE.jar!/org/springframework/web/context/ContextLoaderListener.class" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/lib/struts2-core-2.3.24.jar!/struts-2.3.dtd" />
+        <option value="$PROJECT_DIR$/web/success.jsp" />
+        <option value="$PROJECT_DIR$/src/cn/itsoha/domain/User.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/lib/struts2-core-2.3.24.jar!/struts-default.xml" />
+        <option value="$PROJECT_DIR$/src/cn/itsoha/domain/User.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/cn/itsoha/domain/LinkMan.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/cn/itsoha/web/action/struts.xml" />
+        <option value="$PROJECT_DIR$/src/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/cn/itsoha/service/UserService.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/classes/logging.properties" />
+        <option value="$PROJECT_DIR$/src/cn/itsoha/Test/HibernateTest.java" />
+        <option value="$PROJECT_DIR$/src/db.properties" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-5.1.7-bin.jar!/com/mysql/jdbc/Driver.class" />
+        <option value="$PROJECT_DIR$/src/cn/itsoha/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/cn/itsoha/utils/PageBean.java" />
+        <option value="$PROJECT_DIR$/src/cn/itsoha/dao/impl/CoustomerDaoImpl.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/lib/struts2-core-2.3.24.jar!/struts-2.0.dtd" />
+        <option value="$PROJECT_DIR$/src/cn/itsoha/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/cn/itsoha/dao/impl/UserDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/cn/itsoha/dao/CustomerDao.java" />
+        <option value="$PROJECT_DIR$/src/cn/itsoha/dao/impl/CustomerDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/cn/itsoha/domain/BaseDict.java" />
+        <option value="$PROJECT_DIR$/src/cn/itsoha/domain/Customer.java" />
+        <option value="$PROJECT_DIR$/src/cn/itsoha/dao/BaseDict.java" />
+        <option value="$PROJECT_DIR$/src/cn/itsoha/service/BasedictService.java" />
+        <option value="$PROJECT_DIR$/src/cn/itsoha/dao/BaseDictDao.java" />
+        <option value="$PROJECT_DIR$/src/cn/itsoha/dao/impl/BaseDictDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/cn/itsoha/service/impl/BaseditcServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/cn/itsoha/domain/BaseDict.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/cn/itsoha/domain/Customer.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/cn/itsoha/web/action/BaseDictAction.java" />
+        <option value="$PROJECT_DIR$/web/js/my.js" />
+        <option value="$PROJECT_DIR$/src/cn/itsoha/web/action/UserAction.java" />
+        <option value="$PROJECT_DIR$/src/cn/itsoha/service/CustomerService.java" />
+        <option value="$PROJECT_DIR$/web/jsp/customer/list.jsp" />
+        <option value="$PROJECT_DIR$/src/struts.xml" />
+        <option value="$PROJECT_DIR$/src/cn/itsoha/dao/BaseDao.java" />
+        <option value="$PROJECT_DIR$/src/cn/itsoha/dao/impl/BaseDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/cn/itsoha/web/action/CustomAction.java" />
+        <option value="$PROJECT_DIR$/src/cn/itsoha/service/impl/CustomerServiceImpl.java" />
+        <option value="$PROJECT_DIR$/web/jsp/customer/add.jsp" />
       </list>
     </option>
   </component>
@@ -288,7 +147,9 @@
     <option name="width" value="1400" />
     <option name="height" value="820" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -304,8 +165,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -377,13 +238,26 @@
               <item name="SSH_crm" type="b2602c69:ProjectViewProjectNode" />
               <item name="SSH_crm" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSH_crm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSH_crm" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSH_crm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSH_crm" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+              <item name="customer" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -396,7 +270,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SSH_crm/web/WEB-INF/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/lib" />
     <property name="create.test.in.the.same.root" value="true" />
   </component>
   <component name="RecentsManager">
@@ -441,7 +315,7 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../SSH_crm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -599,11 +473,14 @@
       <workItem from="1514961742014" duration="13583000" />
       <workItem from="1515026267018" duration="7025000" />
       <workItem from="1515049090992" duration="2908000" />
+      <workItem from="1515145866298" duration="5934000" />
+      <workItem from="1515291750907" duration="5571000" />
+      <workItem from="1515306587405" duration="3278000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50786000" />
+    <option name="totallyTimeSpent" value="65569000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -615,38 +492,39 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5025707" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969153" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969153" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839838" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32974428" sideWeight="0.4974293" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26606685" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27793697" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" x="92" y="92" width="1256" height="676" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -664,30 +542,15 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/../SSH_crm/web/WEB-INF/lib/spring-context-4.2.4.RELEASE.jar!/org/springframework/context/config/spring-context-4.2.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../SSH_crm/web/WEB-INF/lib/spring-web-4.2.4.RELEASE.jar!/org/springframework/web/context/ContextLoaderListener.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../SSH_crm/web/WEB-INF/lib/struts2-core-2.3.24.jar!/struts-2.3.dtd">
+    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/struts2-core-2.3.24.jar!/struts-2.3.dtd">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="29" column="3" lean-forward="false" selection-start-line="29" selection-start-column="3" selection-end-line="31" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../SSH_crm/src/hibernate.cfg.xml" />
-    <entry file="file://$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/domain/User.hbm.xml">
+    <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml" />
+    <entry file="file://$PROJECT_DIR$/src/cn/itsoha/domain/User.hbm.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="5" column="34" lean-forward="false" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
@@ -695,14 +558,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/domain/LinkMan.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/itsoha/domain/LinkMan.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../SSH_crm/web/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-216">
           <caret line="10" column="41" lean-forward="false" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
@@ -710,7 +573,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../SSH_crm/web/success.jsp">
+    <entry file="file://$PROJECT_DIR$/web/success.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
           <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
@@ -718,63 +581,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/Test/HibernateTest.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/itsoha/Test/HibernateTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../SSH_crm/src/db.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="35" lean-forward="true" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../SSH_crm/web/WEB-INF/lib/mysql-connector-java-5.1.7-bin.jar!/com/mysql/jdbc/Driver.class">
+    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-5.1.7-bin.jar!/com/mysql/jdbc/Driver.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../SSH_crm/web/WEB-INF/lib/spring-orm-4.2.4.RELEASE.jar!/org/springframework/orm/hibernate5/LocalSessionFactoryBean.class">
+    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/spring-orm-4.2.4.RELEASE.jar!/org/springframework/orm/hibernate5/LocalSessionFactoryBean.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
           <caret line="29" column="13" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../SSH_crm/web/WEB-INF/lib/com.springsource.com.mchange.v2.c3p0-0.9.1.2.jar!/com/mchange/v2/c3p0/ComboPooledDataSource.class">
+    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/com.springsource.com.mchange.v2.c3p0-0.9.1.2.jar!/com/mchange/v2/c3p0/ComboPooledDataSource.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="27" column="19" lean-forward="false" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../SSH_crm/web/WEB-INF/classes/struts.xml">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/classes/struts.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../SSH_crm/web/css/Style.css">
+    <entry file="file://$PROJECT_DIR$/web/css/Style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../SSH_crm/web/welcome.htm">
+    <entry file="file://$PROJECT_DIR$/web/welcome.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../SSH_crm/web/login.jsp">
+    <entry file="file://$PROJECT_DIR$/web/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="32" column="21" lean-forward="true" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
@@ -782,44 +638,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../SSH_crm/src/logging.properties">
+    <entry file="file://$PROJECT_DIR$/src/logging.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="35" lean-forward="false" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../SSH_crm/web/jsp/customer/add.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="16" column="29" lean-forward="false" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SSH_crm/web/menu.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3672">
-          <caret line="136" column="148" lean-forward="false" selection-start-line="136" selection-start-column="129" selection-end-line="136" selection-end-column="148" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/lang/Long.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="937" column="23" lean-forward="false" selection-start-line="937" selection-start-column="23" selection-end-line="937" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../SSH_crm/web/WEB-INF/lib/struts2-core-2.3.24.jar!/struts-default.xml">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/lang/Long.java" />
+    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/struts2-core-2.3.24.jar!/struts-default.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4914">
           <caret line="174" column="60" lean-forward="false" selection-start-line="174" selection-start-column="60" selection-end-line="174" selection-end-column="60" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../SSH_crm/web/WEB-INF/lib/struts2-core-2.3.24.jar!/struts-2.0.dtd">
+    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/struts2-core-2.3.24.jar!/struts-2.0.dtd">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -830,140 +664,45 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="642">
           <caret line="138" column="10" lean-forward="false" selection-start-line="138" selection-start-column="10" selection-end-line="138" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/utils/PageBean.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/itsoha/utils/PageBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="28" column="11" lean-forward="false" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../SSH_crm/web/jsp/customer/list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="64" column="144" lean-forward="false" selection-start-line="64" selection-start-column="32" selection-end-line="64" selection-end-column="144" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/domain/User.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/itsoha/domain/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
           <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/web/action/UserAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="28" column="24" lean-forward="false" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/service/UserService.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/itsoha/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="7" column="9" lean-forward="false" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/dao/UserDao.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/itsoha/dao/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/dao/CustomerDao.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/itsoha/dao/CustomerDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
           <caret line="3" column="33" lean-forward="true" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/dao/impl/UserDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/dao/impl/CustomerDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="33" lean-forward="true" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/service/impl/CustomerServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="17" column="41" lean-forward="false" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/dao/BaseDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="20" column="12" lean-forward="false" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/service/CustomerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/domain/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1755">
-          <caret line="83" column="0" lean-forward="true" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
-          <folding>
-            <element signature="e#1903#1904#0" expanded="true" />
-            <element signature="e#1949#1950#0" expanded="true" />
-            <element signature="e#1989#1990#0" expanded="true" />
-            <element signature="e#2023#2024#0" expanded="true" />
-            <element signature="e#2079#2080#0" expanded="true" />
-            <element signature="e#2125#2126#0" expanded="true" />
-            <element signature="e#2167#2168#0" expanded="true" />
-            <element signature="e#2203#2204#0" expanded="true" />
-            <element signature="e#2263#2264#0" expanded="true" />
-            <element signature="e#2313#2314#0" expanded="true" />
-            <element signature="e#2352#2353#0" expanded="true" />
-            <element signature="e#2385#2386#0" expanded="true" />
-            <element signature="e#2439#2440#0" expanded="true" />
-            <element signature="e#2483#2484#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/domain/LinkMan.hbm.xml">
+    <entry file="file://$PROJECT_DIR$/src/cn/itsoha/domain/LinkMan.hbm.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="61" />
@@ -971,81 +710,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/domain/BaseDict.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="16" column="26" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/service/BasedictService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="54" lean-forward="false" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/dao/impl/BaseDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="18" column="33" lean-forward="false" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/dao/BaseDictDao.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/itsoha/dao/BaseDictDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/dao/impl/BaseDictDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="9" column="70" lean-forward="false" selection-start-line="9" selection-start-column="70" selection-end-line="9" selection-end-column="70" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/service/impl/BaseditcServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="16" column="37" lean-forward="false" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#339#340#0" expanded="true" />
-            <element signature="e#401#402#0" expanded="true" />
-            <element signature="e#470#471#0" expanded="true" />
-            <element signature="e#521#522#0" expanded="true" />
-            <element signature="e#559#560#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SSH_crm/src/struts.xml">
-      <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SSH_crm/src/applicationContext.xml">
+    <entry file="file://$PROJECT_DIR$/src/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="18" column="61" lean-forward="true" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
@@ -1053,7 +725,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/domain/BaseDict.hbm.xml">
+    <entry file="file://$PROJECT_DIR$/src/cn/itsoha/domain/BaseDict.hbm.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="311">
           <caret line="13" column="36" lean-forward="true" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
@@ -1061,7 +733,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/domain/Customer.hbm.xml">
+    <entry file="file://$PROJECT_DIR$/src/cn/itsoha/domain/Customer.hbm.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="529">
           <caret line="43" column="20" lean-forward="true" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
@@ -1069,24 +741,196 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/web/action/CustomAction.java">
+    <entry file="file://$PROJECT_DIR$/src/db.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="25" />
+        <state relative-caret-position="92">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/itsoha/web/action/BaseDictAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="11" column="33" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="33" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1159#1160#0" expanded="true" />
-            <element signature="e#1190#1191#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../SSH_crm/src/cn/itsoha/web/action/BaseDictAction.java">
+    <entry file="file://$PROJECT_DIR$/web/js/jquery-1.4.4.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/itsoha/web/action/UserAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="17" column="30" lean-forward="false" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/itsoha/dao/impl/BaseDictDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="9" column="70" lean-forward="false" selection-start-line="9" selection-start-column="70" selection-end-line="9" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/itsoha/dao/impl/UserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/itsoha/service/impl/BaseditcServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="16" column="37" lean-forward="false" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+          <folding>
+            <element signature="e#470#471#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/itsoha/dao/impl/CustomerDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="5" column="44" lean-forward="false" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/my.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="45" lean-forward="true" selection-start-line="0" selection-start-column="45" selection-end-line="0" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/menu.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="131" column="52" lean-forward="true" selection-start-line="131" selection-start-column="52" selection-end-line="131" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/customer/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="116" column="26" lean-forward="false" selection-start-line="116" selection-start-column="26" selection-end-line="116" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/itsoha/dao/BaseDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/itsoha/dao/impl/BaseDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="23" column="47" lean-forward="false" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+          <folding>
+            <element signature="e#714#715#0" expanded="false" />
+            <element signature="e#768#769#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/struts.xml">
+      <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/itsoha/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/itsoha/web/action/CustomAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="41" column="27" lean-forward="false" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/itsoha/service/CustomerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/itsoha/service/BasedictService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="7" column="54" lean-forward="false" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/itsoha/service/impl/CustomerServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="42" column="13" lean-forward="false" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+          <folding>
+            <element signature="e#1254#1255#0" expanded="true" />
+            <element signature="e#1296#1297#0" expanded="true" />
+            <element signature="e#1502#1503#0" expanded="true" />
+            <element signature="e#1532#1533#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/itsoha/domain/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="37" column="15" lean-forward="true" selection-start-line="37" selection-start-column="15" selection-end-line="37" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/itsoha/domain/BaseDict.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/customer/add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="19" column="27" lean-forward="false" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+          <folding>
+            <element signature="n#style#0;n#INPUT#0;n#td#3;n#TR#2;n#TABLE#1;n#TD#1;n#TR#0;n#TBODY#0;n#TABLE#1;n#FORM#0;n#BODY#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
