@@ -16,10 +16,19 @@
             $("#currentPageInpu").val(page);
             $("#pageFrom").submit();
         }
+
         function changePageSize(size) {
             $("#pageSizeInpt").val(size);
             $("#pageFrom").submit();
 
+        }
+        function selectCustomer(id,name) {
+            //获得父窗口的window
+            var win = window.opener;
+            var doc = win.document;
+            doc.getElementById("cust_id").value = id;
+            doc.getElementById("cust_name").value = name;
+            window.close();
         }
     </SCRIPT>
 
@@ -62,10 +71,17 @@
                         <FORM id="pageFrom" name="customerForm"
                               action="${pageContext.request.contextPath }/CustomerAction_list"
                               method=post>
-                           <%-- <input type="hidden" name="currentPage" id="currentPageInpu" value="<s:property value="#pagebean.currentPage"/> ">
-                            <input type="hidden" name="pageSize" id="pageBeanInpt" value="<S:property value="#pagebean.pageSize"/> ">--%>
-                            <input type="hidden" name="currentPage" id="currentPageInpu" value="${pagebean.currentPage}"/>>
+                            <%-- <input type="hidden" name="currentPage" id="currentPageInpu" value="<s:property value="#pagebean.currentPage"/> ">
+                             <input type="hidden" name="pageSize" id="pageBeanInpt" value="<S:property value="#pagebean.pageSize"/> ">--%>
+                            <input type="hidden" name="currentPage" id="currentPageInpu"
+                                   value="${pagebean.currentPage}"/>
                             <input type="hidden" name="pageSize" id="pageSizeInpt" value="${pagebean.pageSize}">
+
+
+                            <input type="hidden" name="select" value="<s:property value='#parameters.select'/> ">
+
+                            <input type="hidden" id="cust_id">
+                            <input type="hidden" id="cust_name">
                             <TABLE cellSpacing=0 cellPadding=2 border=0>
                                 <TBODY>
                                 <TR>
@@ -122,9 +138,14 @@
                                         <s:property value="#cust.cust_mobile"/>
                                     </TD>
                                     <TD>
-                                        <a href="${pageContext.request.contextPath }/CustomerAction_toEdit?cust_id=<s:property value="#cust.cust_id"/> ">修改</a>
-                                        &nbsp;&nbsp;
-                                        <a href="${pageContext.request.contextPath }/customerServlet?method=delete&custId=${customer.cust_id}">删除</a>
+                                        <s:if test="#parameters.select==null">
+                                            <a href="${pageContext.request.contextPath }/CustomerAction_toEdit?cust_id=<s:property value="#cust.cust_id"/> ">修改</a>
+                                            &nbsp;&nbsp;
+                                            <a href="${pageContext.request.contextPath }/customerServlet?method=delete&custId=${customer.cust_id}">删除</a>
+                                        </s:if>
+                                        <s:if test="#parameters.select!=null">
+                                            <input type="button" value="选择" onclick="selectCustomer(<s:property value="#cust.cust_id"/>,'<s:property value="#cust.cust_name"/>')">
+                                        </s:if>
                                     </TD>
                                 </TR>
                             </s:iterator>
@@ -139,7 +160,8 @@
                                                     style="LINE-HEIGHT: 20px; HEIGHT: 20px; TEXT-ALIGN: right">
 												共[<B>${pagebean.totalCount}</B>]条记录,[<B>${pagebean.totalPage}</B>]页
 												,每页显示
-												<select name="pageSize" onchange="changePageSize($('select option:selected').val());">
+												<select name="pageSize"
+                                                        onchange="changePageSize($('select option:selected').val());">
 												<option value="3"
                                                         <s:property value="#pagebean.pageSize==3?'selected':''"/>
                                                 >3</option>
@@ -148,9 +170,11 @@
                                                 >5</option>
 												</select>
 												条
-												[<A href="javascript:void(0)" onclick="to_page(<s:property value='#pagebean.currentPage-1'/> )">前一页</A>]
+												[<A href="javascript:void(0)" onclick="to_page(
+                                            <s:property value='#pagebean.currentPage-1'/> )">前一页</A>]
 												<B><s:property value="#pagebean.currentPage"/> </B>
-												[<A href="javascript:void(0)" onclick="to_page(<s:property value='#pagebean.currentPage+1'/> )">后一页</A>]
+												[<A href="javascript:void(0)" onclick="to_page(
+                                            <s:property value='#pagebean.currentPage+1'/> )">后一页</A>]
 												到
 												<input type="text" size="3" id="page" name="page"
                                                        value="${pagebean.currentPage}"/>

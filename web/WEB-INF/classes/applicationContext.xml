@@ -83,6 +83,9 @@
     <bean name="basedictAction" class="cn.itsoha.web.action.BaseDictAction" scope="prototype">
         <property name="dictService" ref="basedictService"/>
     </bean>
+    <bean name="linkManAction" class="cn.itsoha.web.action.LinkManAction" scope="prototype">
+        <property name="service" ref="linkManService"/>
+    </bean>
 
     <!--service-->
     <bean name="userService" class="cn.itsoha.service.impl.UserServiceImpl">
@@ -93,6 +96,9 @@
     </bean>
     <bean name="basedictService" class="cn.itsoha.service.impl.BaseditcServiceImpl">
         <property name="dictDao" ref="basedictDao"/>
+    </bean>
+    <bean name="linkManService" class="cn.itsoha.service.impl.LinkServiceImpl">
+        <property name="dao" ref="linkManDao"/>
     </bean>
 
     <!--Dao-->
@@ -105,7 +111,9 @@
     <bean name="basedictDao" class="cn.itsoha.dao.impl.BaseDictDaoImpl">
         <property name="sessionFactory" ref="sessionFactory"/>
     </bean>
-
+    <bean name="linkManDao" class="cn.itsoha.dao.impl.LinkManDaoImpl">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
 
 
 </beans>

@@ -18,9 +18,6 @@ public class Customer {
     private Long cust_id;
 
     private String cust_name;
-//  private String cust_source;
-//	private String cust_industry;
-//	private String cust_level;
     private String cust_linkman;
     private String cust_phone;
     private String cust_mobile;
@@ -36,7 +33,6 @@ public class Customer {
      * 客户级别
      */
     private BaseDict cust_level;
-
 
     public Long getCust_id() {
         return cust_id;

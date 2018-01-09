@@ -28,7 +28,16 @@
         </action>
 
         <action name="BaseDictAction" class="basedictAction" method="execute">
+        </action>
 
+        <action name="LinkManAction_*" class="linkManAction" method="{1}">
+            <result name="list" type="dispatcher">/jsp/linkman/list.jsp</result>
+            <result name="toList" type="redirectAction">
+                <param name="namespace">/</param>
+                <param name="actionName">LinkManAction_list</param>
+            </result>
+            <result name="input">/jsp/linkman/list.jsp</result>
+            <result name="edit" type="dispatcher">/jsp/linkman/add.jsp</result>
         </action>
     </package>
 </struts>

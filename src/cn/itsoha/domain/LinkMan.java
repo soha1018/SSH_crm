@@ -19,7 +19,7 @@ public class LinkMan {
 		) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
 		 */
 	private Long lkm_id;
-	private Character lkm_gender;
+	private Integer lkm_gender;
 	private String lkm_name;
 	private String lkm_phone;
 	private String lkm_email;
@@ -34,8 +34,6 @@ public class LinkMan {
 	//----------------------------------------------
 	//不与数据库中的列对应,只为了接收表单参数
 	private Long cust_id;
-	
-	
 	
 	public Long getCust_id() {
 		return cust_id;
@@ -54,12 +52,6 @@ public class LinkMan {
 	}
 	public void setLkm_id(Long lkm_id) {
 		this.lkm_id = lkm_id;
-	}
-	public Character getLkm_gender() {
-		return lkm_gender;
-	}
-	public void setLkm_gender(Character lkm_gender) {
-		this.lkm_gender = lkm_gender;
 	}
 	public String getLkm_name() {
 		return lkm_name;
@@ -103,6 +95,12 @@ public class LinkMan {
 	public void setLkm_position(String lkm_position) {
 		this.lkm_position = lkm_position;
 	}
-	
-	
+
+	public Integer getLkm_gender() {
+		return lkm_gender;
+	}
+
+	public void setLkm_gender(Integer lkm_gender) {
+		this.lkm_gender = lkm_gender;
+	}
 }
