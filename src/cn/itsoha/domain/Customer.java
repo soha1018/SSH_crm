@@ -1,5 +1,8 @@
 package cn.itsoha.domain;
 
+import java.util.HashSet;
+import java.util.Set;
+
 public class Customer {
 
     /*
@@ -33,6 +36,19 @@ public class Customer {
      * 客户级别
      */
     private BaseDict cust_level;
+
+    /**
+     * 客户访问
+     */
+    private Set<SaleVisit> saleVisits = new HashSet<>();
+
+    public Set<SaleVisit> getSaleVisits() {
+        return saleVisits;
+    }
+
+    public void setSaleVisits(Set<SaleVisit> saleVisits) {
+        this.saleVisits = saleVisits;
+    }
 
     public Long getCust_id() {
         return cust_id;

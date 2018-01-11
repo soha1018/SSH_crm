@@ -1,6 +1,5 @@
 package cn.itsoha.web.action;
 
-import cn.itsoha.domain.Customer;
 import cn.itsoha.domain.LinkMan;
 import cn.itsoha.service.LinkManService;
 import cn.itsoha.utils.PageBean;
@@ -10,9 +9,16 @@ import com.opensymphony.xwork2.ModelDriven;
 import org.apache.commons.lang3.StringUtils;
 import org.hibernate.criterion.DetachedCriteria;
 import org.hibernate.criterion.Restrictions;
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Controller;
 
+import javax.annotation.Resource;
+
+@Controller("linkManAction")
+@Scope("prototype")
 public class LinkManAction extends ActionSupport implements ModelDriven<LinkMan>{
     private LinkMan linkMan = new LinkMan();
+    @Resource(name = "linkManService")
     private LinkManService service;
     private Integer currentPage;
     private Integer pageSize;

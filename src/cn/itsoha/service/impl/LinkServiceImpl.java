@@ -6,13 +6,17 @@ import cn.itsoha.domain.LinkMan;
 import cn.itsoha.service.LinkManService;
 import cn.itsoha.utils.PageBean;
 import org.hibernate.criterion.DetachedCriteria;
+import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Isolation;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
+import javax.annotation.Resource;
 import java.util.List;
 
+@Service("linkManService")
 public class LinkServiceImpl implements LinkManService {
+    @Resource(name = "linkManDao")
     private LinkManDao dao;
 
     @Override

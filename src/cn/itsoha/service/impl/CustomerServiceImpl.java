@@ -5,13 +5,17 @@ import cn.itsoha.domain.Customer;
 import cn.itsoha.service.CustomerService;
 import cn.itsoha.utils.PageBean;
 import org.hibernate.criterion.DetachedCriteria;
+import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Isolation;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
+import javax.annotation.Resource;
 import java.util.List;
 
+@Service("customerService")
 public class CustomerServiceImpl implements CustomerService {
+    @Resource(name = "customerDao")
     private CustomerDao dao;
     @Override
     @Transactional(isolation = Isolation.REPEATABLE_READ,propagation = Propagation.REQUIRED,readOnly = true)
@@ -24,6 +28,12 @@ public class CustomerServiceImpl implements CustomerService {
         pb.setList(list);
 
         return pb;
+    }
+
+    @Override
+    @Transactional(isolation = Isolation.REPEATABLE_READ,propagation = Propagation.REQUIRED,readOnly = true)
+    public List<Object[]> getIndustryCount() {
+        return dao.getIndustryCount();
     }
 
     /**

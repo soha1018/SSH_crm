@@ -5,13 +5,20 @@ import cn.itsoha.service.BasedictService;
 import com.google.gson.Gson;
 import com.opensymphony.xwork2.ActionSupport;
 import org.apache.struts2.ServletActionContext;
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Controller;
 
+import javax.annotation.Resource;
 import java.util.List;
 
+@Controller("baseDictAction")
+@Scope("prototype")
 public class BaseDictAction extends ActionSupport {
     private String dict_type_code;
+    @Resource(name = "dictService")
     private BasedictService dictService;
-    public String execute() throws Exception{
+
+    public String execute() throws Exception {
         List<BaseDict> list = dictService.getTypeCode(dict_type_code);
         Gson gson = new Gson();
         String json = gson.toJson(list);

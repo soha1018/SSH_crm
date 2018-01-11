@@ -9,6 +9,7 @@
 							http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.2.xsd
 							http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.2.xsd ">
 
+    <context:component-scan base-package="cn.itsoha"/>
     <!-- 读取db.properties文件 -->
     <context:property-placeholder location="classpath:db.properties" />
     <!-- 配置c3p0连接池 -->
@@ -74,7 +75,7 @@
         <property name="mappingDirectoryLocations" value="classpath:cn/itsoha/domain" />
     </bean>
     <!--Struts和spring整合需要是多列的-->
-    <bean name="userAction" class="cn.itsoha.web.action.UserAction" scope="prototype">
+<!--    <bean name="userAction" class="cn.itsoha.web.action.UserAction" scope="prototype">
         <property name="userService" ref="userService"/>
     </bean>
     <bean name="customerAction" class="cn.itsoha.web.action.CustomAction" scope="prototype">
@@ -86,8 +87,11 @@
     <bean name="linkManAction" class="cn.itsoha.web.action.LinkManAction" scope="prototype">
         <property name="service" ref="linkManService"/>
     </bean>
+    <bean name="saleVisitAction" class="cn.itsoha.web.action.SaleVisitAction" scope="prototype">
+        <property name="saleVisitService" ref="saleVisitService"/>
+    </bean>
 
-    <!--service-->
+    &lt;!&ndash;service&ndash;&gt;
     <bean name="userService" class="cn.itsoha.service.impl.UserServiceImpl">
         <property name="userDao" ref="userDao"/>
     </bean>
@@ -100,8 +104,11 @@
     <bean name="linkManService" class="cn.itsoha.service.impl.LinkServiceImpl">
         <property name="dao" ref="linkManDao"/>
     </bean>
+    <bean name="saleVisitService" class="cn.itsoha.service.impl.SaleVisitServiceImpl">
+        <property name="dao" ref="saleVisitDao"/>
+    </bean>
 
-    <!--Dao-->
+    &lt;!&ndash;Dao&ndash;&gt;
     <bean name="userDao" class="cn.itsoha.dao.impl.UserDaoImpl">
         <property name="sessionFactory" ref="sessionFactory"/>
     </bean>
@@ -114,6 +121,9 @@
     <bean name="linkManDao" class="cn.itsoha.dao.impl.LinkManDaoImpl">
         <property name="sessionFactory" ref="sessionFactory"/>
     </bean>
+    <bean name="saleVisitDao" class="cn.itsoha.dao.impl.SaleVisitDaoImpl">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>-->
 
 
 </beans>

@@ -5,9 +5,17 @@ import cn.itsoha.service.UserService;
 import com.opensymphony.xwork2.ActionContext;
 import com.opensymphony.xwork2.ActionSupport;
 import com.opensymphony.xwork2.ModelDriven;
+import org.apache.commons.lang3.StringUtils;
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Controller;
 
+import javax.annotation.Resource;
+
+@Controller("userAction")
+@Scope("prototype")
 public class UserAction extends ActionSupport implements ModelDriven<User> {
     private User user = new User();
+    @Resource(name = "userService")
     private UserService userService;
 
     public String login() throws Exception{
@@ -22,12 +30,15 @@ public class UserAction extends ActionSupport implements ModelDriven<User> {
     }
 
     public String save() throws Exception {
-        User user = new User();
-        user.setUser_code("hdd");
-        user.setUser_name("黄东东");
-        user.setUser_password("hdd");
-        userService.login(user);
-        return "success";
+
+        try {
+            userService.saveUser(user);
+        } catch (Exception e) {
+            e.printStackTrace();
+            ActionContext.getContext().put("error", e.getMessage());
+            return "registError";
+        }
+        return "toLogin";
     }
 
 

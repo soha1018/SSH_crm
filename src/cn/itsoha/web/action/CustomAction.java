@@ -9,11 +9,18 @@ import com.opensymphony.xwork2.ModelDriven;
 import org.apache.commons.lang3.StringUtils;
 import org.hibernate.criterion.DetachedCriteria;
 import org.hibernate.criterion.Restrictions;
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Controller;
 
+import javax.annotation.Resource;
 import java.io.File;
+import java.util.List;
 
+@Controller("customAction")
+@Scope("prototype")
 public class CustomAction extends ActionSupport implements ModelDriven<Customer> {
     private Customer customer = new Customer();
+    @Resource(name = "customerService")
     private CustomerService customerService;
     private Integer currentPage;
     private Integer pageSize;
@@ -31,6 +38,11 @@ public class CustomAction extends ActionSupport implements ModelDriven<Customer>
         return "list";
     }
 
+    public String industryCount() throws Exception{
+        List<Object[]> list = customerService.getIndustryCount();
+        ActionContext.getContext().put("list",list);
+        return "industryCount";
+    }
     /**
      * 添加客户
      */

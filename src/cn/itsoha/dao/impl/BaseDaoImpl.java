@@ -1,15 +1,19 @@
 package cn.itsoha.dao.impl;
 
 import cn.itsoha.dao.BaseDao;
+import org.hibernate.SessionFactory;
 import org.hibernate.criterion.DetachedCriteria;
 import org.hibernate.criterion.Projections;
 import org.springframework.orm.hibernate5.support.HibernateDaoSupport;
+import org.springframework.stereotype.Repository;
 
+import javax.annotation.Resource;
 import java.io.Serializable;
 import java.lang.reflect.ParameterizedType;
 import java.util.List;
 
 public class BaseDaoImpl<T> extends HibernateDaoSupport implements BaseDao<T> {
+
     private Class clazz;
 
     public BaseDaoImpl() {
